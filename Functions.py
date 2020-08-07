@@ -15,3 +15,10 @@ def square(number):
 
 
 print(square(3))  # 9
+
+
+def mean(a_list):
+    return sum(a_list) / len(a_list)
+
+
+print(mean([1, 2, 3]))
